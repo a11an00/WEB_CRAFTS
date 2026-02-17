@@ -5,28 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabarak University</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      h2{
+        color:#000080;
+        border-bottom:solid 1px #000080;
+        font-family: "tahoma";
+      }
+      .my_class{
+        background-color:#e3f2fd; 
+      }
+      h3{
+        color:#660000;
+        font-family: "tahoma";
+      }
+
+    </style>
  </head>
  <body style="margin:7.5%; background-image:url('main.jpg');">
     <h1 style="color:#660000; border-bottom:solid 2px #660000; padding:5px">KABARAK UNIVERSITY</h1>
     <h2>ABOUT</h2>
      <h3>History</h3>
-      <p>Kabarak University was established in 2002 by the late Hon. Daniel T. arap Moi, the 2nd President of the Republic of Kenya. The university is located in Kabarak, Nakuru County, Kenya. It is a private <strong>Christian university</strong> that aims to provide <i> quality education and promote moral and ethical values</i> among its students.</p>
+      <p class="my_class">Kabarak University was established in 2002 by the late Hon. Daniel T. arap Moi, the 2nd President of the Republic of Kenya. The university is located in Kabarak, Nakuru County, Kenya. It is a private <strong>Christian university</strong> that aims to provide <i> quality education and promote moral and ethical values</i> among its students.</p>
      <h3>Location</h3>
-        <p>Kabarak University is situated in the scenic town of Kabarak, approximately 20 kilometers from Nakuru town. The university campus is nestled in a serene environment, providing an ideal setting for learning and personal growth.</p>  
+        <p class="my_class">Kabarak University is situated in the scenic town of Kabarak, approximately 20 kilometers from Nakuru town. The university campus is nestled in a serene environment, providing an ideal setting for learning and personal growth.</p>  
     <h2>ACADEMIC PROGRAMS</h2>
-      <p>Academic programs in Kabarak University are spread across the following <u>Seven Schools</u>:</p>
-      <ol>
+      <p >Academic programs in Kabarak University are spread across the following <u>Seven Schools</u>:</p>
+      <ol class="my_class">
         <li>Medicine and Health Sciences</li>
         <li>Education Humanities and Social Sciences </li>
         <li>Science Engineering and Technology</li>
         <li>Law</li>
         <li>Business and Economics</li>
-        <li>Phamarcy</li>
+        <li>Phamacy</li>
         <li>Music and Media</li>
       </ol>
      <h3>Schools</h3>
     <h2 style="font-style:italic">ACCOMODATION</h2>
-    <table cellspacing="1" cellpadding="15" border="1">
+    <table id="acc" cellspacing="1" cellpadding="15" border="1">
       <tr>
         <th>Hostel</th>
         <th>#</th>
@@ -34,57 +49,57 @@
         <th>Population</th>
       </tr>
       <tr>
-        <td rowspan="4" style="background-color:blue">Men</td>
+        <td rowspan="4" >Men</td>
         <td>1</td>
-        <td style="background-color:red">Elementaita</td>
-        <td style="background-color:black;color:white">250</td>
+        <td >Elementaita</td>
+        <td>250</td>
       </tr>
       <tr>
         <td>2</td>
-        <td style="background-color:green">Baringo</td>
+        <td >Baringo</td>
         <td>250</td>
       </tr>
       <tr>
         <td>3</td>
-        <td style="background-color:yellow">Turkana</td>
+        <td >Turkana</td>
         <td>250</td>
       </tr>
       <tr>
         <td>4</td>
-        <td style="background-color:orange">Bogoria</td>
+        <td >Bogoria</td>
         <td>250</td>  
       </tr>
       <tr>
-        <td rowspan="5" style="background-color:purple;">Ladies</td>
+        <td rowspan="5" >Ladies</td>
         <td>1</td>
-        <td style="background-color:red">Kabon</td>
+        <td >Kabon</td>
         <td>130</td>
       </tr>
       <tr>
         <td>2</td>
-        <td style="background-color:green">Lenana</td>
+        <td >Lenana</td>
         <td>130</td>
       </tr>
       <tr>
         <td>3</td>
-        <td style="background-color:yellow">Sote A</td>
+        <td >Sote A</td>
         <td>130</td>
       </tr>
       <tr>
         <td>4</td>
-        <td style="background-color:orange">Sote B</td>
+        <td>Sote B</td>
         <td>130</td>
       </tr>
       <tr>
         <td>5</td>
-        <td style="background-color:pink">Central</td>
+        <td>Central</td>
         <td>130</td>
       </tr>
 
     </table>
 
     <h2>Contact us</h2>
-    <form>
+    <form id="my_choice">
       <h3 align="center">CONTACT FORM</h3><hr>
       <label for="email">email:</label><br>
       <input type="email"  required><br><br>
@@ -95,7 +110,7 @@
       <input type="submit" value="submit">
 
     </form>
-       <h3>Games</h3>
-       <h3>Clubs and Societies</h3>
+       <h3 id="my_choice">Games</h3>
+       <h3 id="my_choice">Clubs and Societies</h3>
  </body>
 </html>
