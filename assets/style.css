@@ -1,0 +1,24 @@
+
+#area{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    text-align: center;
+    box-shadow:0 4px 10px rgb(0,0,0,45) ;
+    padding:30px;
+    background-color:#1D19AC;
+    font-family: cursive;
+}
+#profile_img{
+    border: 2px solid rgb(120, 206, 233);
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    padding:10px;
+}
+#social{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
